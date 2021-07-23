@@ -1,1 +1,0 @@
-C:\windows\MicLock\resources\nircmdc.exe loop 172800 200 setsysvolume 65535 default_record
