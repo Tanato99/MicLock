@@ -1,4 +1,0 @@
-100
-Microphone
-ctrl+alt
-200
