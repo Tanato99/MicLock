@@ -11,7 +11,7 @@ When the pc is turned on, it disables the microphone, if you press hotkey you ch
    ```
     pip install -r requirements.txt
    ```
-3. Open the file volume.txt and change the values in following way:
+3. Open the file volume.txt and change the values in following way:\n
    In first line write the volume that you want lock (Default: 100)
    In the second line write the name of your microphone (Default: Microphone)
    In the third line write the hotkey that you want use to change the state of the microphone (Default: ctrl+alt)
