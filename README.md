@@ -16,7 +16,7 @@ When the pc is turned on, it disables the microphone, if you press hotkey you ch
    In the second line write the name of your microphone (Default: Microphone) <br />
    In the third line write the hotkey that you want use to change the state of the microphone (Default: ctrl+alt) <br />
    In the fourth line write every how many milliseconds you want to send a request to lock the volume (Default: 200) <br />
-4. In autostart\Miclock.bat you may need to specify the directory where python is installed <br />
+4. In autostart\MicLock.bat you may need to specify the directory where python is installed <br />
 5. If you want MickLock.py to start automatically at startup <br />
    in the regedit add in HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run <br />
    a new string value and in the value field add this path: C:\Windows\MicLock\autostart\Hide_MicLock.vbs<br />
