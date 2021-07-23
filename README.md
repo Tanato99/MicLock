@@ -24,8 +24,8 @@ When the pc is turned on it disables the microphone, if you press hotkey you cha
 
 ***Notes:***
 1.If you change any value in the volume.txt file you have to restart the pc or restart 
-  the python.exe and nircmdc.exe processes to see the changes applied.
-2. I tested it with python 3.7
+  the python.exe and nircmdc.exe processes to see the changes applied
+2.I tested it with python 3.7, I cannot guarantee it will work with other versions as well
 
 
 
