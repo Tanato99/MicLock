@@ -1,11 +1,11 @@
 # MicLock
-MicLock is a tool for windows, written in python that allows of turn off, turn on, and lock the volume of microphone
+MicLock is a tool for windows, written in python that allows of turn off, turn on, and lock the volume of microphone <br />
 
-***How does it work?***
-When the pc is turned on, it disables the microphone, if you press hotkey you change the status of the microphone 
+***How does it work?*** <br />
+When the pc is turned on, it disables the microphone, if you press hotkey you change the status of the microphone <br />
 (if it is on, it turns it off, while if it is off, it sets it to on and set the volume to the value you have set)
 
-***How to use:***
+***How to use:*** <br />
 1. Move the "MicLock" folder in C:\windows <br />
 2. Install the requiments.txt with the command: 
    ```
@@ -22,8 +22,7 @@ When the pc is turned on, it disables the microphone, if you press hotkey you ch
    a new string value and in the value field add this path: C:\Windows\MicLock\autostart\Hide_MicLock.vbs<br />
 
 
-***Notes:***
-
+***Notes:*** <br />
 1.If you change any value in the volume.txt file you have to restart the pc or restart 
   the python.exe and nircmdc.exe processes to see the changes applied <br />  
 2.I tested it with python 3.7, I cannot guarantee it will work with other versions as well
