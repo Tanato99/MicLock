@@ -8,9 +8,9 @@ When the pc is turned on it disables the microphone, if you press hotkey you cha
 ***How to use:***
 1. Move the "MicLock" folder in C:\windows
 2. Install the requiments.txt with the command: 
-   '''
+   ```
     pip install -r requirements.txt
-   '''
+   ```
 3. Open the file volume.txt and change the values in following way:
    In first line write the volume that you want lock (Default: 100)
    In the second line write the name of your microphone (Default: Microphone)
