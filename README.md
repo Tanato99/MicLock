@@ -3,7 +3,7 @@ MicLock is a tool for windows, written in python that allows of turn off, turn o
 
 ***How does it work?***
 When the pc is turned on it disables the microphone, if you press hotkey you change the status of the microphone 
-(if it is on, it turns it off, while if it is off it sets it to on and set the volume to the value you have set)
+(if it is on, it turns it off, while if it is off, it sets it to on and set the volume to the value you have set)
 
 ***How to use:***
 1. Move the "MicLock" folder in C:\windows
