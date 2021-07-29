@@ -1,7 +1,7 @@
-import keyboard
 from win10toast import ToastNotifier
 import os
 import subprocess
+import msvcrt
 
 
 def change_status_mic(status_mic, toaster, vol, name_mic):
@@ -65,8 +65,9 @@ def main():
     status_mic = False
     execute_command(status_mic, toaster, vol, name_mic)
     while True:
-        if keyboard.is_pressed(hotkey):
-            status_mic = change_status_mic(status_mic, toaster, vol, name_mic)
+        if msvcrt.kbhit():
+            if msvcrt.getch() == hotkey:
+                status_mic = change_status_mic(status_mic, toaster, vol, name_mic)
 
 
 if __name__ == "__main__":
